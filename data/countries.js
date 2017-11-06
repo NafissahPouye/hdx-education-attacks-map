@@ -33,7 +33,8 @@ var countries = {
                 "description": "500-999 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 213,
                 "harmed": 739,
-                "attacks": 110  
+                "attacks": 110,
+                "targeted": 153,  
             },
             "geometry": {
                 "type": "Polygon",
@@ -49,7 +50,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 412,
                 "harmed": 100,
-                "attacks": 348
+                "attacks": 348,
+                "targeted": 100,
             },
             "geometry": {
                 "type": "Polygon",
@@ -65,7 +67,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 1451,
                 "harmed": 2529,
-                "attacks": 1140
+                "attacks": 1140,
+                "targeted": 2042,
             },
             "geometry": {
                 "type": "Polygon",
@@ -81,7 +84,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 1500,
                 "harmed": 1280,
-                "attacks": 1500
+                "attacks": 1500,
+                "targeted": 759,
             },
             "geometry": {
                 "type": "Polygon",
@@ -97,7 +101,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 1337,
                 "harmed": 2814,
-                "attacks": 590
+                "attacks": 590,
+                "targeted": 162,
             },
             "geometry": {
                 "type": "Polygon",
@@ -113,7 +118,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 138,
                 "harmed": 232,
-                "attacks": 29
+                "attacks": 29,
+                "targeted": 168,
             },
             "geometry": {
                 "type": "Polygon",
@@ -129,7 +135,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 40,
                 "harmed": 90,
-                "attacks": 0
+                "attacks": 0,
+                "targeted": 90,
             },
             "geometry": {
                 "type": "Polygon",
@@ -145,7 +152,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 80,
                 "harmed": 1235,
-                "attacks": 17
+                "attacks": 17,
+                "targeted": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -161,7 +169,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 36,
                 "harmed": 424,
-                "attacks": 13
+                "attacks": 13,
+                "targeted": 124
             },
             "geometry": {
                 "type": "Polygon",
@@ -177,7 +186,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 399,
                 "harmed": 475,
-                "attacks": 260
+                "attacks": 260,
+                "targeted": 98
             },
             "geometry": {
                 "type": "Polygon",
@@ -193,7 +203,7 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 35,
                 "harmed": 239,
-
+                "targeted": 82,
             },
             "geometry": {
                 "type": "Polygon",
@@ -209,7 +219,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 131,
                 "harmed": 88,
-                "attacks": 65
+                "attacks": 65,
+                "targeted": 24,
             },
             "geometry": {
                 "type": "Polygon",
@@ -225,8 +236,8 @@ var countries = {
                 "description": "500-999 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 103,
                 "harmed": 515,
-                "attacks": 38
-
+                "attacks": 38,
+                "targeted": 95,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -242,7 +253,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 132,
                 "harmed": 1213,
-                "attacks": 144
+                "attacks": 144,
+                "targeted": 669,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -258,8 +270,8 @@ var countries = {
                 "description": "500-999 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 850,
                 "harmed": 0,
-                "attacks": 740
-     
+                "attacks": 740,
+                "targeted": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -275,7 +287,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 80,
                 "harmed": 48,
-                "attacks": 51
+                "attacks": 51,
+                "targeted": 8,
             },
             "geometry": {
                 "type": "Polygon",
@@ -291,7 +304,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 266,
                 "harmed": 87,
-                "attacks": 146
+                "attacks": 146,
+                "targeted": 7,
             },
             "geometry": {
                 "type": "Polygon",
@@ -307,7 +321,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 1982,
                 "harmed": 269,
-                "attacks": 1641
+                "attacks": 1641,
+                "targeted": 98,
             },
             "geometry": {
                 "type": "Polygon",
@@ -322,7 +337,8 @@ var countries = {
                 "description": "500-999 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 136,
                 "harmed": 772,
-                "attacks": 88
+                "attacks": 88,
+                "targeted": 45,
             },
             "geometry": {
                 "type": "Polygon",
@@ -337,7 +353,8 @@ var countries = {
                 "description": "1000+ incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 1062,
                 "harmed": 931,
-                "attacks": 800
+                "attacks": 800,
+                "targeted": 73,
             },
             "geometry": {
                 "type": "Polygon",
@@ -352,7 +369,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 147,
                 "harmed": 38,
-                "attacks": 123
+                "attacks": 123,
+                "targeted": 38,
             },
             "geometry": {
                 "type": "Polygon",
@@ -367,7 +385,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 39,
                 "harmed": 179,
-                "attacks": 22
+                "attacks": 22,
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -382,7 +401,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 16,
                 "harmed": 104,
-                "attacks": 15
+                "attacks": 15,
+                "targeted": 97,
             },
             "geometry": {
                 "type": "Polygon",
@@ -397,7 +417,8 @@ var countries = {
                 "description": "500-999 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 975,
                 "harmed": 182,
-                "attacks": 763
+                "attacks": 763,
+                "targeted": 18,
 
             },
             "geometry": {
@@ -413,7 +434,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 125,
                 "harmed": 112,
-                "attacks": 21
+                "attacks": 21,
+                "targeted": 112,
             },
             "geometry": {
                 "type": "Polygon",
@@ -428,7 +450,8 @@ var countries = {
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 129,
                 "harmed": 55,
-                "attacks": 105
+                "attacks": 105,
+                "targeted": 0,
 
             },
             "geometry": {
