@@ -18,6 +18,9 @@ var countries = {
                 "harmed": 869,
                 "attacks": 334,
                 "targeted": 589,
+                "facilities": 46,
+                "higher": 16,
+                "snp": 91
             },
             "geometry": {
                 "type": "Polygon",
@@ -35,6 +38,9 @@ var countries = {
                 "harmed": 739,
                 "attacks": 110,
                 "targeted": 153,  
+                "facilities": 20,
+                "higher": 7,
+                "snp": 547,
             },
             "geometry": {
                 "type": "Polygon",
@@ -52,6 +58,8 @@ var countries = {
                 "harmed": 100,
                 "attacks": 348,
                 "targeted": 100,
+                "facilities": 23,
+                "snp": 60
             },
             "geometry": {
                 "type": "Polygon",
@@ -69,6 +77,8 @@ var countries = {
                 "harmed": 2529,
                 "attacks": 1140,
                 "targeted": 2042,
+                "facilities": 19,
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -86,6 +96,9 @@ var countries = {
                 "harmed": 1280,
                 "attacks": 1500,
                 "targeted": 759,
+                "facilities": 17,
+                "higher": 15,
+                 "snp": 172
             },
             "geometry": {
                 "type": "Polygon",
@@ -103,6 +116,9 @@ var countries = {
                 "harmed": 2814,
                 "attacks": 590,
                 "targeted": 162,
+                "facilities": 37,
+                "higher": 34,
+                "snp": 137,
             },
             "geometry": {
                 "type": "Polygon",
@@ -120,6 +136,9 @@ var countries = {
                 "harmed": 232,
                 "attacks": 29,
                 "targeted": 168,
+                "higher": 2,
+                "snp": 30
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -137,6 +156,8 @@ var countries = {
                 "harmed": 90,
                 "attacks": 0,
                 "targeted": 90,
+                "facilities": 21,
+                "snp": 6
             },
             "geometry": {
                 "type": "Polygon",
@@ -154,6 +175,9 @@ var countries = {
                 "harmed": 1235,
                 "attacks": 17,
                 "targeted": 0,
+                "higher": 14,
+                "snp": 1202
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -170,7 +194,10 @@ var countries = {
                 "incidents_of_attacks_on_education": 36,
                 "harmed": 424,
                 "attacks": 13,
-                "targeted": 124
+                "targeted": 124,
+                "facilities": 1,
+                "higher": 1,
+                "snp": 244
             },
             "geometry": {
                 "type": "Polygon",
@@ -187,7 +214,10 @@ var countries = {
                 "incidents_of_attacks_on_education": 399,
                 "harmed": 475,
                 "attacks": 260,
-                "targeted": 98
+                "targeted": 98,
+                "facilities": 20,
+                "higher": 13,
+                "snp": 109
             },
             "geometry": {
                 "type": "Polygon",
@@ -204,6 +234,9 @@ var countries = {
                 "incidents_of_attacks_on_education": 35,
                 "harmed": 239,
                 "targeted": 82,
+                "facilities": 2,
+                "higher": 1,
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -221,6 +254,8 @@ var countries = {
                 "harmed": 88,
                 "attacks": 65,
                 "targeted": 24,
+                "higher": 49,
+                "snp": 60
             },
             "geometry": {
                 "type": "Polygon",
@@ -238,6 +273,9 @@ var countries = {
                 "harmed": 515,
                 "attacks": 38,
                 "targeted": 95,
+                "facilities": 1,
+                "higher": 1,
+                "snp": 405
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -255,6 +293,9 @@ var countries = {
                 "harmed": 1213,
                 "attacks": 144,
                 "targeted": 669,
+                "facilities": 31,
+                "higher": 5,
+                "snp": 5,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -272,6 +313,9 @@ var countries = {
                 "harmed": 0,
                 "attacks": 740,
                 "targeted": 0,
+                "facilities": 11,
+                "higher": 1,
+                "snp": 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -289,6 +333,9 @@ var countries = {
                 "harmed": 48,
                 "attacks": 51,
                 "targeted": 8,
+                "facilities": 6,
+                "higher": 6,
+                "snp": 14
             },
             "geometry": {
                 "type": "Polygon",
@@ -306,6 +353,9 @@ var countries = {
                 "harmed": 87,
                 "attacks": 146,
                 "targeted": 7,
+                "facilities": 99,
+                "snp": 0
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -323,6 +373,9 @@ var countries = {
                 "harmed": 269,
                 "attacks": 1641,
                 "targeted": 98,
+                "facilities": 67,
+                "higher": 106,
+                "snp": 101
             },
             "geometry": {
                 "type": "Polygon",
@@ -339,6 +392,9 @@ var countries = {
                 "harmed": 772,
                 "attacks": 88,
                 "targeted": 45,
+                "facilities": 5,
+                "snp": 697,
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -355,6 +411,9 @@ var countries = {
                 "harmed": 931,
                 "attacks": 800,
                 "targeted": 73,
+                "facilities": 161,
+                "higher": 1,
+                "snp": 4
             },
             "geometry": {
                 "type": "Polygon",
@@ -371,6 +430,9 @@ var countries = {
                 "harmed": 38,
                 "attacks": 123,
                 "targeted": 38,
+                "facilities": 20,
+
+
             },
             "geometry": {
                 "type": "Polygon",
@@ -386,7 +448,8 @@ var countries = {
                 "incidents_of_attacks_on_education": 39,
                 "harmed": 179,
                 "attacks": 22,
-
+                "facilities": 12,
+                "snp": 136
             },
             "geometry": {
                 "type": "Polygon",
@@ -403,6 +466,8 @@ var countries = {
                 "harmed": 104,
                 "attacks": 15,
                 "targeted": 97,
+                "facilities": 31,
+                "snp": 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -419,7 +484,8 @@ var countries = {
                 "harmed": 182,
                 "attacks": 763,
                 "targeted": 18,
-
+                "facilities": 30,
+                "snp": 41
             },
             "geometry": {
                 "type": "Polygon",
@@ -436,6 +502,9 @@ var countries = {
                 "harmed": 112,
                 "attacks": 21,
                 "targeted": 112,
+                "facilities": 11,
+                "higher": 7,
+                "snp": 14
             },
             "geometry": {
                 "type": "Polygon",
@@ -452,7 +521,8 @@ var countries = {
                 "harmed": 55,
                 "attacks": 105,
                 "targeted": 0,
-
+                "facilities": 4,
+                "snp": 0
             },
             "geometry": {
                 "type": "Polygon",

@@ -49,7 +49,7 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight,
         //click: zoomToFeature
     });
-    layer.bindPopup('<h5>' + feature.properties.name + '</h5><h5>' + feature.properties.affecte + '</h5><h5>' + 'Incidents of Attack on Education: ' + feature.properties.incidents_of_attacks_on_education + '</h5><h5>'+ 'People Harmed by Attacks on Education: ' + feature.properties.harmed + '</h5><h5>'+ 'Attacks on Schools: ' + feature.properties.attacks + '</h5><h5>'+ 'Students and Education Personnel Directly Targeted: ' + feature.properties.targeted + '</h5>');
+    layer.bindPopup('<h5>' + feature.properties.name + '</h5><h5>' + feature.properties.affecte + '</h5><h5>' + 'Incidents of attack on education: ' + feature.properties.incidents_of_attacks_on_education + '</h5><h5>'+ 'People harmed by attacks on education: ' + feature.properties.harmed + '</h5><h5>'+ 'Attacks on schools: ' + feature.properties.attacks + '</h5><h5>'+ 'Students and education personnel directly targeted: ' + feature.properties.targeted + '</h5><h5>'+ 'Military use of educational facilities: ' + feature.properties.facilities + '</h5><h5>'+ 'Attacks on higher education facilities: '+ feature.properties.higher + '</h5><h5>'+ 'Students and education personnel harmed by atacks on higher education: '+ feature.properties.snp +'</h5>');
 
 }
 
