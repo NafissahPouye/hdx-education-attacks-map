@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url("../fonts/Gotham-Light.eot");
+    src: url("../fonts/Gotham-Light.woff") format("woff");
+    font-style: normal;
+    font-stretch: normal;
+}
+
+#map {
+    height: 650px;
+    width: 100%;
+}
+
+#header {
+    border-bottom-color: #dddddd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 15px;
+}
+
+#description {
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: Gotham-Light;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 28px;
+    opacity: 0.7;
+}
+
+#legend {
+    padding-bottom: 5px;
+}
+
+.legend .leg {
+    height: 20px;
+    width: 20px;
+    border: 1px;
+}
+
+.col-xs-4 .col-md-2 {
+    height: 30px;
+    width: 25px;
+}
+
+.col-xs-4 .col-md-10 {
+    text-align: justify;
+}
+
+.col-xs-4 .col-md-10 p {
+    font-family: Gotham-Light;
+}
+
+.strong {
+    text-decoration: underline;
+}
