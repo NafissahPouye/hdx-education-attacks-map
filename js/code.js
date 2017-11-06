@@ -49,7 +49,7 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight,
         //click: zoomToFeature
     });
-    layer.bindPopup('<h5>' + feature.properties.name + '</h5><h4>' + feature.properties.affecte + '</h4><h4>' + 'Incidents of Attack on Education: ' + feature.properties.incidents_of_attacks_on_education + '</h4>');
+    layer.bindPopup('<h5>' + feature.properties.name + '</h5><h5>' + feature.properties.affecte + '</h5><h5>' + 'Incidents of Attack on Education: ' + feature.properties.incidents_of_attacks_on_education + '</h5><h5>'+ 'People Harmed by Attacks on Education: ' + feature.properties.harmed + '</h5><h5>'+ 'Attacks on Schools: ' + feature.properties.attacks + '</h5>');
 
 }
 
