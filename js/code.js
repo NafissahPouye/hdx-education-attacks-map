@@ -58,11 +58,11 @@ function style(feature) {
     if (feature.properties.affecte == 'Very Heavily Affected') {
         return {
 
-            fillColor:  'darkred',
+            fillColor:  'crimson',
             weight: 4,
             opacity: 0.2,
-            color: 'darkred',
-            fillOpacity: 0.6
+            color: 'crimson',
+            fillOpacity: 0.8
         };
     } else if (feature.properties.affecte == 'Heavily Affected') {
         return {
