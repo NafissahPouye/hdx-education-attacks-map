@@ -58,29 +58,29 @@ function style(feature) {
     if (feature.properties.affecte == 'Very Heavily Affected') {
         return {
 
-            fillColor:  'crimson',
+            fillColor:  '#f03b20',
             weight: 4,
             opacity: 0.2,
-            color: 'crimson',
+            color: '#f03b20',
             fillOpacity: 0.8
         };
     } else if (feature.properties.affecte == 'Heavily Affected') {
         return {
 
-            fillColor: 'coral',
+            fillColor: '#feb24c',
             weight: 2,
             opacity: 0.6,
 
-           color: 'coral',
+           color: '#feb24c',
             //dashArray: '3',
             fillOpacity: 0.5
         };
     } else if (feature.properties.affecte == 'Affected') {
         return {
-            fillColor: 'gold',
+            fillColor: '#ffeda0',
             weight: 2,
             opacity: 0.6,
-            color: 'gold',
+            color: '#ffeda0',
             //dashArray: '3',
             fillOpacity: 0.5
         };
