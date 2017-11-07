@@ -65,4 +65,44 @@
 .strong {
     text-decoration: underline;
 }
-#More {display:none;}
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  text-align: justify;
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Read more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Less';
+}
+
+.read-more-trigger {
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-family: Gotham-Light;
+  cursor: pointer;
+  display: inline-block;
+ /* padding: 0 .5em;*/
+  color: blue;
+  font-size: .9em;
+  line-height: 2;
+  /*border: 1px solid #ddd;
+  border-radius: .25em;*/
+}
