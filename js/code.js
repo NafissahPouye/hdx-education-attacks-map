@@ -80,7 +80,7 @@ function style(feature) {
             fillColor: '#ffeda0',
             weight: 2,
             opacity: 0.6,
-            color: '#feb24c',
+            color: 'yellow',
             //dashArray: '3',
             fillOpacity: 0.5
         };
