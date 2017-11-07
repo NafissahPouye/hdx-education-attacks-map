@@ -59,6 +59,7 @@ var countries = {
                 "attacks": 348,
                 "targeted": 100,
                 "facilities": 23,
+                "higher": "NA",
                 "snp": 60
             },
             "geometry": {
@@ -136,6 +137,7 @@ var countries = {
                 "harmed": 232,
                 "attacks": 29,
                 "targeted": 168,
+                "facilities": "NA",
                 "higher": 2,
                 "snp": 30
 
@@ -176,6 +178,7 @@ var countries = {
                 "attacks": 17,
                 "targeted": 0,
                 "higher": 14,
+                "facilities": "NA",
                 "snp": 1202
 
             },
@@ -232,10 +235,12 @@ var countries = {
                 "affecte": "Affected",
                 "description": "20-499 incidents, attacks/military use of facilities, or attacks on people",
                 "incidents_of_attacks_on_education": 35,
+                "attacks": "NA",
                 "harmed": 239,
                 "targeted": 82,
                 "facilities": 2,
                 "higher": 1,
+                "snp": "NA"
 
             },
             "geometry": {
@@ -254,6 +259,7 @@ var countries = {
                 "harmed": 88,
                 "attacks": 65,
                 "targeted": 24,
+                "facilities": "NA",
                 "higher": 49,
                 "snp": 60
             },
@@ -354,6 +360,7 @@ var countries = {
                 "attacks": 146,
                 "targeted": 7,
                 "facilities": 99,
+                "higher": "NA",
                 "snp": 0
 
             },
@@ -393,6 +400,7 @@ var countries = {
                 "attacks": 88,
                 "targeted": 45,
                 "facilities": 5,
+                "higher": "NA",
                 "snp": 697,
 
             },
@@ -431,6 +439,8 @@ var countries = {
                 "attacks": 123,
                 "targeted": 38,
                 "facilities": 20,
+                "higher": "NA",
+                "snp": "NA"
 
 
             },
@@ -448,7 +458,9 @@ var countries = {
                 "incidents_of_attacks_on_education": 39,
                 "harmed": 179,
                 "attacks": 22,
+                "targeted": "NA",
                 "facilities": 12,
+                "higher": "NA",
                 "snp": 136
             },
             "geometry": {
@@ -467,6 +479,7 @@ var countries = {
                 "attacks": 15,
                 "targeted": 97,
                 "facilities": 31,
+                "higher": "NA",
                 "snp": 0
             },
             "geometry": {
@@ -485,6 +498,7 @@ var countries = {
                 "attacks": 763,
                 "targeted": 18,
                 "facilities": 30,
+                "higher": "NA",
                 "snp": 41
             },
             "geometry": {
@@ -522,6 +536,7 @@ var countries = {
                 "attacks": 105,
                 "targeted": 0,
                 "facilities": 4,
+                "higher": "NA",
                 "snp": 0
             },
             "geometry": {
