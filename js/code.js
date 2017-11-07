@@ -67,11 +67,11 @@ function style(feature) {
     } else if (feature.properties.affecte == 'Heavily Affected') {
         return {
 
-            fillColor: '#2b8cbe',
+            fillColor: 'orange',
             weight: 2,
             opacity: 0.6,
 
-            //            color: 'red',
+           color: 'orange',
             //dashArray: '3',
             fillOpacity: 0.5
         };
