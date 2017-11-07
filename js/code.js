@@ -77,10 +77,10 @@ function style(feature) {
         };
     } else if (feature.properties.affecte == 'Affected') {
         return {
-            fillColor: '#ffeda0',
+            fillColor: 'gold',
             weight: 2,
             opacity: 0.6,
-            color: 'yellow',
+            color: 'gold',
             //dashArray: '3',
             fillOpacity: 0.5
         };
